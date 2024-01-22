@@ -51,7 +51,7 @@ Plan2 = inputText2.value;
 localStorage.setItem("10AM:", Plan2 )
 inputText2.value = Plan2;
 });
- //   Storing the second hour
+ //   Storing the third hour
  var Plan3 =  localStorage.getItem("11AM:")
  var inputText3 = document.getElementById("inputText3");
      inputText3.value = Plan3;
@@ -64,7 +64,7 @@ localStorage.setItem("11AM:", Plan3 )
 inputText3.value = Plan3;
 });
 
- //   Storing the second hour
+ //   Storing the fourth hour
  var Plan4 =  localStorage.getItem("12AM:")
  var inputText4 = document.getElementById("inputText4");
      inputText4.value = Plan4;
@@ -77,7 +77,7 @@ localStorage.setItem("12AM:", Plan4 )
 inputText4.value = Plan4;
 });
 
- //   Storing the second hour
+ //   Storing the fifth hour
  var Plan5 =  localStorage.getItem("1PM:")
  var inputText5 = document.getElementById("inputText5");
      inputText5.value = Plan5;
@@ -90,7 +90,7 @@ localStorage.setItem("1PM:", Plan5 )
 inputText5.value = Plan5;
 });
 
- //   Storing the second hour
+ //   Storing the sixth hour
  var Plan6 =  localStorage.getItem("2PM:")
  var inputText6 = document.getElementById("inputText6");
      inputText6.value = Plan6;
@@ -102,7 +102,7 @@ Plan6 = inputText6.value;
 localStorage.setItem("2PM:", Plan6 )
 inputText6.value = Plan6;
 });
- //   Storing the second hour
+ //   Storing the seventh hour
  var Plan7 =  localStorage.getItem("3PM:")
  var inputText7 = document.getElementById("inputText7");
      inputText7.value = Plan7;
@@ -114,7 +114,7 @@ Plan7 = inputText7.value;
 localStorage.setItem("3PM:", Plan7 )
 inputText7.value = Plan7;
 });
- //   Storing the second hour
+ //   Storing the eight hour
  var Plan8 =  localStorage.getItem("4PM:")
  var inputText8 = document.getElementById("inputText8");
      inputText8.value = Plan8;
@@ -126,7 +126,7 @@ Plan8 = inputText8.value;
 localStorage.setItem("4PM:", Plan8 )
 inputText8.value = Plan8;
 });
- //   Storing the second hour
+ //   Storing the ninth hour
  var Plan9 =  localStorage.getItem("5PM:")
  var inputText9 = document.getElementById("inputText9");
      inputText9.value = Plan9;
@@ -148,7 +148,7 @@ inputText9.value = Plan9;
  console.log(currentTime);
 
  
-//  the first hour
+//  given color class based on past, future and present 1st hr
  var h3Text1 = $("#firstHour").text();
  if (currentTime == h3Text1 ){
     txtInput1.attr('class', 'present');
@@ -160,7 +160,7 @@ else {
     txtInput1.attr('class', 'past');
 }
 
-//  the first hour
+//  given color class based on past, future and present 2nd hr
 var h3Text2 = $("#secondHour").text();
 if (currentTime == h3Text2 ){
    txtInput2.attr('class', 'present');
@@ -172,7 +172,7 @@ else {
    txtInput2.attr('class', 'future');
 }
 
-//  the first hour
+//  given color class based on past, future and present 3rd hr
 var h3Text3 = $("#thirdHour").text();
 if (currentTime == h3Text3 ){
    txtInput3.attr('class', 'present');
@@ -184,7 +184,7 @@ else {
    txtInput3.attr('class', 'future');
 }
 
-//  the first hour
+//  given color class based on past, future and present 4th hr
 var h3Text4 = $("#fourthHour").text();
 if (currentTime == h3Text4 ){
    txtInput4.attr('class', 'present');
@@ -196,7 +196,7 @@ else {
    txtInput4.attr('class', 'future');
 }
 
-//  the first hour
+//  given color class based on past, future and present 5th hr
 var h3Text5 = $("#fifthHour").text();
 if (currentTime == h3Text5 ){
    txtInput5.attr('class', 'present');
@@ -208,7 +208,7 @@ else {
    txtInput5.attr('class', 'future');
 }
 
-//  the first hour
+//  given color class based on past, future and present 6th hr
 var h3Text6 = $("#sixthHour").text();
 if (currentTime == h3Text6 ){
    txtInput6.attr('class', 'present');
@@ -220,7 +220,7 @@ else {
    txtInput6.attr('class', 'future');
 }
 
-//  the first hour
+//  given color class based on past, future and present 7th hr
 var h3Text7 = $("#seventhHour").text();
 if (currentTime == h3Text7 ){
    txtInput7.attr('class', 'present');
@@ -232,7 +232,7 @@ else {
    txtInput7.attr('class', 'future');
 }
 
-//  the first hour
+//  given color class based on past, future and present 8th hr
 var h3Text8 = $("#eighthHour").text();
 if (currentTime == h3Text8 ){
    txtInput8.attr('class', 'present');
@@ -243,7 +243,7 @@ else if ( currentTime > h3Text8) {
 else {
    txtInput8.attr('class', 'future');
 }
-//  the first hour
+//  given color class based on past, future and present 9th hr
 var h3Text9 = $("#ninthHour").text();
 if (currentTime == h3Text9 ){
    txtInput9.attr('class', 'present');
@@ -254,16 +254,3 @@ else if ( currentTime > h3Text9) {
 else {
    txtInput9.attr('class', 'future');
 }
-
- 
-
-// * Save the event in local storage when the save button is clicked in that timeblock.
-// saving to colal storage is easly performed by the one and onlyly ly lovely lovely
-
-
-
-// * Persist events between refreshes of a page
-
-// The following animation demonstrates the application functionality:
-
-// ![A user clicks on slots on the color-coded calendar and edits the events.](./images/05-third-party-apis-homework-demo.gif)
