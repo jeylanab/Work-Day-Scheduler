@@ -90,7 +90,7 @@ header {
 
 }
 
-#saveIcon {
+.saveIcon {
   height: 100%;
   width: 8%;
   margin: 0 0;
@@ -106,7 +106,7 @@ header {
 
 }
 
-#saveIcon:hover   {
+.saveIcon:hover   {
   background-color: #176374;
   font-size: 20px;
   transition: all 0.3s ease-in-out;
