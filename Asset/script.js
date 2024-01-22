@@ -28,10 +28,10 @@ $(currentDay).text(today.format("dddd, MMMM D") + "th");
     txtInput1.attr('class', 'present');
  }
  else if ( currentTime > h3Text1) {
-    txtInput1.attr('class', 'past'); 
+    txtInput1.attr('class', 'future'); 
  }
 else {
-    txtInput1.attr('class', 'future');
+    txtInput1.attr('class', 'past');
 }
 
 //  the first hour
