@@ -120,3 +120,8 @@ header {
     margin: 30px;
     flex-direction: column;
 }
+h3 {
+  text-align: center;
+  font-size: medium;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
